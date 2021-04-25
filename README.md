@@ -11,5 +11,5 @@ sudo sh install
 And next put the following line on the `/etc/nanorc` or `~/.nanorc` (Wherever you like)
 
 ```bash
-include "/usr/share/nano/extra/pashmak.nanorc"
+include "/usr/share/nano/extra/vile.nanorc"
 ```
