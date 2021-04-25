@@ -1,0 +1,16 @@
+syntax "vile" "\.vl$"
+
+## keywords
+color brightwhite "\<(fn|if|do|var|func|macro|code|import|false|true)\>"
+
+## primitives
+color brightblue "\<(eval|exit|len|cons|car|cdr|type)\>"
+color brightblue "\<(round|ceil|floor|log|sin|cos|inc|dec|compile|puts|put|list|concat)\>"
+color brightblue "(\+|-|\*|/|=|<=|>=|>|<|&|\||^|<<|>>|')"
+
+## paranthese
+color brightyellow "(\(|\))"
+
+## strings
+color green "\"([^"\]|\\.)+""
+color green start="\"\"\"([^"),]|$)" end="(^|[^(\])\"\"\""
