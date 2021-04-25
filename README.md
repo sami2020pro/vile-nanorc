@@ -5,7 +5,7 @@ Vile programming language syntax highlighting file for GNU nano editor.
 Follow the guide below
 
 ```bash
-$ sudo ./install
+sudo sh install
 ```
 
 And next put the following line on the `/etc/nanorc` or `~/.nanorc` (Wherever you like)
